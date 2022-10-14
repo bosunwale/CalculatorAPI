@@ -1,4 +1,5 @@
 using AdditionLogic;
+using MultiplicationLogic;
 using SubtractionLogic;
 
 namespace CalculatorUnitTest
@@ -6,6 +7,7 @@ namespace CalculatorUnitTest
     [TestClass]
     public class CalculationOperationTesting
     {
+        //Test for adding positive numbers and returning double
         [TestMethod]
         [DynamicData(nameof(GetPositiveNumbersToAdd), DynamicDataSourceType.Method)]
         public void Adding_Two_Positive_Numbers_and_return_Doubles(double leftNum, double rightNum, double expectedResult)
@@ -30,6 +32,7 @@ namespace CalculatorUnitTest
             return list;
         }
 
+        //Test for subtracting positive numbers and returning double
         [TestMethod]
         [DynamicData(nameof(GetPositiveNumbersToSubtract), DynamicDataSourceType.Method)]
         public void Subtracting_Two_Positive_Numbers_and_return_Doubles(double leftNum, double rightNum, double expectedResult)
@@ -55,6 +58,37 @@ namespace CalculatorUnitTest
                 {
                     i--;
                 }  
+            }
+            return list;
+        }
+
+        //Test for subtracting positive numbers and returning double
+        [TestMethod]
+        [DataRow(5,5,25)]
+        [DynamicData(nameof(GetPositiveNumbersToSubtract), DynamicDataSourceType.Method)]
+        public void Multiplication_of_Two_Positive_Numbers_and_return_Doubles(double leftNum, double rightNum, double expectedResult)
+        {
+            double result = Multiplication.Multiply(leftNum, rightNum);
+            Assert.AreEqual(expectedResult, result);
+        }
+        //Dynamic Method to test positive numbers for multiplication
+        private static IEnumerable<Object[]> GetPositiveNumbersToMultiply()
+        {
+            var list = new List<Object[]>();
+            for (int i = 0; i < 10; i++)
+            {
+                Random random = new Random();
+                var leftNum = random.NextDouble() * random.NextInt64();
+                var rightNum = random.NextDouble() * random.NextInt64();
+                var expectedResult = leftNum * rightNum;
+                if (expectedResult > 0)
+                {
+                    list.Add(new Object[] { leftNum, rightNum, expectedResult });
+                }
+                else
+                {
+                    i--;
+                }
             }
             return list;
         }
