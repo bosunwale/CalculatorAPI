@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorUnitTest", "Calcu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdditionLogic", "..\AdditionLogic\AdditionLogic.csproj", "{7194B62F-348A-4D47-B266-F33FB5884C95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubtractionLogic", "..\SubtractionLogic\SubtractionLogic.csproj", "{BDF4D5F4-0F4A-49EB-8A0E-7BC2D22F284A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7194B62F-348A-4D47-B266-F33FB5884C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7194B62F-348A-4D47-B266-F33FB5884C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7194B62F-348A-4D47-B266-F33FB5884C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF4D5F4-0F4A-49EB-8A0E-7BC2D22F284A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF4D5F4-0F4A-49EB-8A0E-7BC2D22F284A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF4D5F4-0F4A-49EB-8A0E-7BC2D22F284A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF4D5F4-0F4A-49EB-8A0E-7BC2D22F284A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

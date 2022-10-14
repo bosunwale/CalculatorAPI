@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AdditionLogic\AdditionLogic.csproj" />
+    <ProjectReference Include="..\SubtractionLogic\SubtractionLogic.csproj" />
   </ItemGroup>
 
 </Project>
