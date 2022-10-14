@@ -64,8 +64,7 @@ namespace CalculatorUnitTest
 
         //Test for subtracting positive numbers and returning double
         [TestMethod]
-        [DataRow(5,5,25)]
-        [DynamicData(nameof(GetPositiveNumbersToSubtract), DynamicDataSourceType.Method)]
+        [DynamicData(nameof(GetPositiveNumbersToMultiply), DynamicDataSourceType.Method)]
         public void Multiplication_of_Two_Positive_Numbers_and_return_Doubles(double leftNum, double rightNum, double expectedResult)
         {
             double result = Multiplication.Multiply(leftNum, rightNum);
