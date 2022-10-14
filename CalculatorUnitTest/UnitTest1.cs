@@ -5,10 +5,12 @@ namespace CalculatorUnitTest
     public class CalculationOperationTesting
     {
         [TestMethod]
-        public void Adding_Two_Positive_Decimals()
+        [DataRow(5, 2.5, 7.5)]
+        [DataRow(4,9,13)]
+        public void Adding_Two_Positive_Numbers_and_return_Doubles(double leftNum, double rightNum, double expectedResult)
         {
-            double result = Addition.Add(4, 5);
-            Assert.AreEqual(9, result);
+            double result = Addition.Add(leftNum, rightNum);
+            Assert.AreEqual(expectedResult, result);
         }
     }
 }
