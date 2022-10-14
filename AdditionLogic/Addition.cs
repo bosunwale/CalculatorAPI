@@ -4,7 +4,7 @@ namespace AdditionLogic
 {
     public static class Addition
     {
-        public static int Add(int firstNum, int secondNum)
+        public static double Add(int firstNum, int secondNum)
         {
             return firstNum + secondNum;
         }

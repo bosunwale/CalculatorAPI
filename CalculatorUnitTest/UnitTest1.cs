@@ -1,11 +1,14 @@
+using AdditionLogic;
 namespace CalculatorUnitTest
 {
     [TestClass]
-    public class UnitTest1
+    public class CalculationOperationTesting
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Adding_Two_Positive_Decimals()
         {
+            double result = Addition.Add(4, 5);
+            Assert.AreEqual(9, result);
         }
     }
 }
