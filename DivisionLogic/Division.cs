@@ -2,9 +2,9 @@
 {
     public static class Division
     {
-        public static double Divide(double leftNum, double rightNum)
+        public static double Divide(double firstNum, double secondNum)
         {
-            return leftNum / rightNum;
+            return firstNum / secondNum;
         }
     }
 }
