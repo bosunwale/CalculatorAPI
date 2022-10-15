@@ -5,13 +5,15 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorUnitTest", "CalculatorUnitTest.csproj", "{D6A3AE8E-65D2-4847-9AAE-E70191CE26CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdditionLogic", "..\AdditionLogic\AdditionLogic.csproj", "{7194B62F-348A-4D47-B266-F33FB5884C95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdditionLogic", "..\AdditionLogic\AdditionLogic.csproj", "{7194B62F-348A-4D47-B266-F33FB5884C95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubtractionLogic", "..\SubtractionLogic\SubtractionLogic.csproj", "{BDF4D5F4-0F4A-49EB-8A0E-7BC2D22F284A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubtractionLogic", "..\SubtractionLogic\SubtractionLogic.csproj", "{BDF4D5F4-0F4A-49EB-8A0E-7BC2D22F284A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicationLogic", "..\MultiplicationLogic\MultiplicationLogic.csproj", "{8DA6AC1D-00BD-48E6-B134-4E82E110B32B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiplicationLogic", "..\MultiplicationLogic\MultiplicationLogic.csproj", "{8DA6AC1D-00BD-48E6-B134-4E82E110B32B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivisionLogic", "..\DivisionLogic\DivisionLogic.csproj", "{50A26A49-E42D-4ADF-B98F-E68F56F73A9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivisionLogic", "..\DivisionLogic\DivisionLogic.csproj", "{5BBD6725-8187-46B3-9AAC-BD60F46F33E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API-For-Calculator", "..\API-For-Calculator\API-For-Calculator.csproj", "{8EFAFCCB-E514-4FA8-BA3D-086C2CC61A37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +37,14 @@ Global
 		{8DA6AC1D-00BD-48E6-B134-4E82E110B32B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DA6AC1D-00BD-48E6-B134-4E82E110B32B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DA6AC1D-00BD-48E6-B134-4E82E110B32B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{50A26A49-E42D-4ADF-B98F-E68F56F73A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{50A26A49-E42D-4ADF-B98F-E68F56F73A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{50A26A49-E42D-4ADF-B98F-E68F56F73A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{50A26A49-E42D-4ADF-B98F-E68F56F73A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BBD6725-8187-46B3-9AAC-BD60F46F33E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BBD6725-8187-46B3-9AAC-BD60F46F33E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BBD6725-8187-46B3-9AAC-BD60F46F33E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BBD6725-8187-46B3-9AAC-BD60F46F33E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EFAFCCB-E514-4FA8-BA3D-086C2CC61A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EFAFCCB-E514-4FA8-BA3D-086C2CC61A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EFAFCCB-E514-4FA8-BA3D-086C2CC61A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFAFCCB-E514-4FA8-BA3D-086C2CC61A37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
