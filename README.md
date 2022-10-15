@@ -1,8 +1,8 @@
 # Calculator Web API 
 
-This is a basic web API for a small calculator and is tested with Unit Testin
+This is a basic web API for a small calculator and is fully tested
 
 ## Built With
 - Visual Studio
-- MS test
+- MSTest Project
 - ASP .NET CORE WEB API
